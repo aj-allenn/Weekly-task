@@ -116,6 +116,7 @@ h1{
     gap: 25px;
     margin-right: 50px;
      padding-left: 300px; 
+     
     /* margin-bottom: 50px; */
  }
 
@@ -149,7 +150,7 @@ h1{
     font-size: large;
     font-weight: 600; */
     /* margin-left: 500px;*/
-    padding-left:90px;
+    /* padding-left:100px; */
 }
 
 .cards{
@@ -224,7 +225,7 @@ h1{
 
  h4{
     
-    font-size: 30px;
+    font-size: 25px;
     font-family: sans-serif;
 }
 .list{
@@ -239,10 +240,8 @@ h1{
 }
 .list1{
     width:100%;
-  
      
-     
-}
+  }
 
 .list1 p{
     font-family: sans-serif;
@@ -259,12 +258,305 @@ h1{
     height: 230px; 
     gap: 30px;
 }
-/* h6{
+.restaurants{
+     width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:start;
+
+}
+
+h5{
+   font-size: 25px;
+   font-family: sans-serif;
+}
+
+/* .section4{
+     width:100%;
+    height:50vh;
+    margin: auto;
+    display:flex;
+    background-color: aquamarine;
+}
+
+.rows{
     width: 80%;
-    margin:auto;
-    font-family: sans-serif;
-    font-size: 20px;
-    /* background-color: rgb(124, 108, 108);  */
-    padding-right: 20px;
+    height: 40vh;
+   background-color: bisque;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 12px;
+     border-radius: 12px;
+     gap: 10px;
+     
+     
+}
+.row1{
+    width: 300px;
+    height: 230px; 
+    /* gap: 30px; */
+    background-image: url("./canopyy.jpg");
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    background-color: aliceblue;
     
+}
+.row2{
+    background-image: url("./rasanai.jpg");
+    width: 300px;
+    height: 230px; 
+    /* gap: 30px; */
+    background-repeat: no-repeat;
+
+}
+
+.row3{
+    background-image: url("./little\ soi.jpg");
+     width: 300px;
+    height: 230px; 
+    /* gap: 30px; */
+    background-repeat: no-repeat;
+}
+.row4{
+    background-image: url("./pandhal.jpg");
+    width: 300px;
+    height: 230px; 
+    /* gap: 30px; */
+    background-repeat: no-repeat;
+}
+.row1 h6{
+    color: white;
+    position: relative;
+    top: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
 } */
+
+.section5{
+    width: 100%;
+    height: 350px;
+    margin: auto;
+}
+.section5 img{
+    width: 100%;
+    height: 330px;
+    margin-top: 10px;
+
+}
+
+
+.section6{
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+.cities h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.txtbtn{
+    width: 80%;
+    height: 300px;
+    margin: auto; 
+    /* background-color: black; */
+    margin-left: 110px;
+    margin-top: 15px;
+}
+
+.set1{
+    width: 900px;
+    height: 55px;
+    display: flex;
+    margin-left: 20px; 
+    gap: 40px;
+    padding: 10px;
+    
+    /* background-color: aliceblue; */
+}
+
+.set2{
+    width : 900px;
+    height: 55px;
+    display: flex;
+    margin-left: 20px;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 10px;
+    /* background-color: blueviolet; */
+}
+.set3{
+    width : 900px;
+    height: 55px;
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    gap: 40px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.tb{
+    width: 800px;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px; 
+
+}
+
+.tb2{
+    width: 800px;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 8px;
+     border: 1px solid gray;
+}
+
+.tb3{
+    width: 800px;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 8px;
+     border: 1px solid gray;
+}
+.tb4{
+     width: 800px;
+    height: 60px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 8px;
+     border: 1px solid gray;
+    color: orangered;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    gap: 5px;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+.section7{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    /* background-color: antiquewhite; */
+}
+
+.section8{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(239, 235, 235);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+}
+.section81{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-bottom: 2px solid black;
+    
+} 
+.logo1{
+     width: 20vh;
+     height: 48px;
+     /* background-color: aquamarine;  */
+    margin-left: 60px;
+}
+.swiggy{
+    width: 280px;
+    height: 60px;
+    /* background-color: blue; */
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+p5{
+    margin-left: 60px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+.contact1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.avail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+.both{
+    gap: 35px;
+    margin-top: 30px;
+}
+.life{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+.links{
+    display: flex;
+}
+.svg{
+    display: flex;
+    gap: 5px;
+}
+
+h7{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+p6{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(119, 116, 116);
+}
+button{
+    width: 100px;
+    height: 35px;
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+     background-color: rgb(239, 235, 235);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     font-weight: 700;
+     display: flex;
+    justify-content: center;
+     gap: 10px;
+     
+
+}
+h8{
+    margin-left: 100px;
+}
